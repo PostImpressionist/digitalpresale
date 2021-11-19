@@ -13,7 +13,17 @@ import java.util.Objects;
 
 public class InMemoryUserRepository extends InMemoryBaseRepository<User> implements repository.UserRepository {
 
-    // SAVE DELETE GET -> FROM SUPER
+    private static final InMemoryUserRepository instance = new InMemoryUserRepository();
+
+    private InMemoryUserRepository() {
+    }
+
+    public static InMemoryUserRepository getInstance() {
+        return instance;
+    }
+
+
+    // SAVE DELETE GET -> FROM SUPER CLASS
 
     @Override
     public List<User> getAll() {

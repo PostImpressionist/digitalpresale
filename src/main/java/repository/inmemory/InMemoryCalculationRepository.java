@@ -18,6 +18,14 @@ public class InMemoryCalculationRepository extends InMemoryBaseRepository<Calcul
     // Map  userId -> CalculationRepository
     private final Map<Integer, InMemoryBaseRepository<Calculation>> usersCalculationsMap = new ConcurrentHashMap<>();
 
+    private static final InMemoryCalculationRepository instance = new InMemoryCalculationRepository();
+
+    private InMemoryCalculationRepository() {
+    }
+
+    public static InMemoryCalculationRepository getInstance() {
+        return instance;
+    }
 
     @Override
     public Calculation save(Calculation calculation, int userId) {

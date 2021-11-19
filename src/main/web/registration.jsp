@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <html>
 <head>
     <title>EcoCalc</title>
@@ -8,6 +10,11 @@
 <%--шапка--%>
 <div class="w3-container w3-blue-grey w3-opacity w3-center">
     <h1>Регистрация нового пользователя</h1>
+</div>
+<div class="w3-container w3-red-grey w3-opacity w3-center">
+    <h2>
+    Введённый адрес электронной почты уже используется? <%= request.getParameter("emailAlreadyInUse") %>
+    </h2>
 </div>
 
 <%--Форма регистрации--%>

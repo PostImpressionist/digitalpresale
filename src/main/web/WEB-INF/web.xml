@@ -12,4 +12,13 @@
         <servlet-name>registrationServlet</servlet-name>
         <url-pattern>/registration</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>calculationServlet</servlet-name>
+        <servlet-class>servlet.CalculationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>calculationServlet</servlet-name>
+        <url-pattern>/calculation</url-pattern>
+    </servlet-mapping>
 </web-app>
