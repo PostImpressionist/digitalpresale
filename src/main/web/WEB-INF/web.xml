@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>registrationServlet</servlet-name>
-        <servlet-class>servlet.RegistrationServlet</servlet-class>
+        <servlet-class>digital.presale.servlet.RegistrationServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>registrationServlet</servlet-name>
@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>calculationServlet</servlet-name>
-        <servlet-class>servlet.CalculationServlet</servlet-class>
+        <servlet-class>digital.presale.servlet.CalculationServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>calculationServlet</servlet-name>

@@ -1,6 +1,6 @@
-package repository.inmemory;
+package digital.presale.repository.inmemory;
 
-import model.User;
+import digital.presale.model.User;
 
 import java.util.Comparator;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.Objects;
  * 2021 November 19
  **/
 
-public class InMemoryUserRepository extends InMemoryBaseRepository<User> implements repository.UserRepository {
+public class InMemoryUserRepository extends InMemoryBaseRepository<User> implements digital.presale.repository.UserRepository {
 
     private static final InMemoryUserRepository instance = new InMemoryUserRepository();
 

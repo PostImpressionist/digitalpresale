@@ -1,4 +1,4 @@
-package model.hardware;
+package digital.presale.model.hardware;
 
 import java.util.Objects;
 

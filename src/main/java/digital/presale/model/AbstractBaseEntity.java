@@ -1,4 +1,4 @@
-package model;
+package digital.presale.model;
 
 import java.util.Objects;
 

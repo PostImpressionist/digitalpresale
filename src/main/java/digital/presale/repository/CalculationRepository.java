@@ -1,6 +1,6 @@
-package repository;
+package digital.presale.repository;
 
-import model.Calculation;
+import digital.presale.model.Calculation;
 
 import java.time.LocalDateTime;
 import java.util.List;

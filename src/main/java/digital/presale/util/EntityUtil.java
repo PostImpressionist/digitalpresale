@@ -1,6 +1,6 @@
-package util;
+package digital.presale.util;
 
-import model.hardware.Hardware;
+import digital.presale.model.hardware.Hardware;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package model;
+package digital.presale.model;
 
-import model.hardware.Hardware;
-import util.EntityUtil;
+import digital.presale.model.hardware.Hardware;
+import digital.presale.util.EntityUtil;
 
 import java.time.LocalDateTime;
 import java.util.List;

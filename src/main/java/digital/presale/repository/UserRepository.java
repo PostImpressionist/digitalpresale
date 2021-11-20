@@ -1,6 +1,6 @@
-package repository;
+package digital.presale.repository;
 
-import model.User;
+import digital.presale.model.User;
 
 import java.util.List;
 

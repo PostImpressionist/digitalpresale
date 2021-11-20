@@ -1,4 +1,4 @@
-package model;
+package digital.presale.model;
 
 /**
  * created by E.K.

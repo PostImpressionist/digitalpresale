@@ -39,9 +39,8 @@
 
 Email: <%= request.getParameter("email") %>
 Password: <%= request.getParameter("pass") %>
-
-</body>
-<footer>
+<footer class="footer w3-bottom" >
     <%@ include file="footer.html" %>
 </footer>
+</body>
 </html>

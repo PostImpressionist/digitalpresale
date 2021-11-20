@@ -1,7 +1,7 @@
-package repository.inmemory;
+package digital.presale.repository.inmemory;
 
-import model.Calculation;
-import repository.CalculationRepository;
+import digital.presale.model.Calculation;
+import digital.presale.repository.CalculationRepository;
 
 import java.time.LocalDateTime;
 import java.util.*;

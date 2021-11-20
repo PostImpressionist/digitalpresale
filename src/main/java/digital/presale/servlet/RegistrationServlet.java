@@ -1,8 +1,8 @@
-package servlet;
+package digital.presale.servlet;
 
-import model.Role;
-import model.User;
-import repository.inmemory.InMemoryUserRepository;
+import digital.presale.model.Role;
+import digital.presale.model.User;
+import digital.presale.repository.inmemory.InMemoryUserRepository;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
