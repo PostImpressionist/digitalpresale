@@ -33,6 +33,17 @@ public class Calculation extends AbstractBaseEntity {
         this.user = user;
     }
 
+    public Calculation(LocalDateTime dateTime, String description, List<Hardware> hardwareList, User user) {
+        this.description = description;
+        this.dateTime = dateTime;
+        this.hardwareList = hardwareList;
+        this.totalPrice = EntityUtil.getTotalPrice(hardwareList);
+        this.user = user;
+    }
+
+    public Calculation() {
+    }
+
     public String getDescription() {
         return description;
     }

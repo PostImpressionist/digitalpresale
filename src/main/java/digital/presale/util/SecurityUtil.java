@@ -1,4 +1,4 @@
-package digital.presale.servlet;
+package digital.presale.util;
 
 import digital.presale.model.User;
 import digital.presale.repository.inmemory.InMemoryCalculationRepository;
